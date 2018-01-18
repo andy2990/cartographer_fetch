@@ -6,7 +6,7 @@
   <env name="ROS_MASTER_URI" value="http://localhost:11311" />
 
   <node name="playbag_1" pkg="rosbag" type="play"
-      args="-r 5 --clock $(env HOME)/Downloads/cartographer_freight_demo.bag" />
+      args="-r 2 --clock $(env HOME)/Downloads/cartographer_freight_demo.bag" />
   <node name="cartographer_grpc_bridge_1" pkg="cartographer_ros"
       type="cartographer_grpc_node" args="
           -configuration_directory $(find cartographer_fetch)/configuration_files
@@ -29,7 +29,7 @@
   <env name="ROS_MASTER_URI" value="http://localhost:11312" />
 
   <node name="playbag_2" pkg="rosbag" type="play"
-      args="-r 5 --clock $(env HOME)/Downloads/cartographer_freight_demo_2.bag" />
+      args="-r 2 --clock $(env HOME)/Downloads/cartographer_freight_demo_2.bag" />
   <node name="cartographer_grpc_bridge_2" pkg="cartographer_ros"
       type="cartographer_grpc_node" args="
           -configuration_directory $(find cartographer_fetch)/configuration_files

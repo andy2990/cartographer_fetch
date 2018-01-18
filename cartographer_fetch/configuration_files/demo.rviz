@@ -46,7 +46,7 @@ Panels:
 Visualization Manager:
   Class: ""
   Displays:
-    - Alpha: 0.5
+    - Alpha: 0.2
       Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
@@ -203,7 +203,7 @@ Visualization Manager:
       Value: true
   Enabled: true
   Global Options:
-    Background Color: 100; 100; 100
+    Background Color: 40; 40; 40
     Fixed Frame: map
     Frame Rate: 30
   Name: root
