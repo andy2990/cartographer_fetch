@@ -64,7 +64,7 @@
     <remap from="scan" to="base_scan" />
   </node>
   <node name="rviz_cloud" pkg="rviz" type="rviz" required="true"
-      args="-d $(find cartographer_fetch)/configuration_files/demo.rviz" />
+      args="-d $(find cartographer_fetch)/configuration_files/demo-cloud.rviz" />
 </group>
 </launch>
 
